@@ -1,0 +1,137 @@
+/* LOADER */
+@keyframes loader {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ANIMATION HEADER SHOW */
+@keyframes headerShow {
+  0% {
+    top: -2rem;
+  }
+  45% {
+    top: 1.5rem;
+  }
+  100% {
+    top: -0.1rem;
+  }
+}
+
+/* GREET HAND IN BACKGROUND */
+@keyframes greet {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(15deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(15deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* FLOAT STACK IN BACKGROUND */
+@keyframes floatStacks {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, -0.2rem);
+  }
+  100% {
+    transform: translate(0, 0rem);
+  }
+}
+/* ALERT MOBILE VERSION */
+@keyframes alertMobileVersion {
+  0% {
+    transform: translateY(-13rem) translateX(-5.5rem) rotateZ(275deg);
+  }
+  25% {
+    transform: translateY(-13rem) translateX(-5.5rem) rotateZ(268deg);
+  }
+  50% {
+    transform: translateY(-13rem) translateX(-5.5rem) rotateZ(275deg);
+  }
+  75% {
+    transform: translateY(-13rem) translateX(-5.5rem) rotateZ(268deg);
+  }
+  100% {
+    transform: translateY(-13rem) translateX(-5.5rem) rotateZ(275deg);
+  }
+}
+/* VIEW MORE PROJECTS IN MOBILE VERSION */
+@keyframes alertViewMoreProjects {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* BUTTON THEME SUN ANIMATION  */
+
+@keyframes sun {
+  0% {
+    width: 0.8em;
+    height: 0.8em;
+    opacity: 0;
+  }
+
+  40% {
+    width: 0.8em;
+    height: 0.8em;
+
+    transform: translate(0.1rem, 0.15rem);
+  }
+  100% {
+    width: 1.2em;
+    height: 1.2em;
+
+    transform: translate(0rem, -0.032rem);
+    opacity: 1;
+  }
+}
+
+/* OPEN AND CLOSE MODAL */
+@keyframes openModal {
+  0% {
+    transform: translateX(-500px) scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes exitModal {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(500px) scale(0.8);
+    opacity: 0;
+  }
+}
